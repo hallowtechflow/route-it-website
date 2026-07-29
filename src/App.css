@@ -1,0 +1,23 @@
+#root {
+  min-height: 100vh;
+}
+
+.home-page {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  padding: 24px;
+  text-align: center;
+}
+
+.home-page h1 {
+  margin: 0;
+  font-size: clamp(3rem, 10vw, 7rem);
+  line-height: 1;
+}
+
+.home-page p {
+  margin: 20px 0 0;
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  color: #68717d;
+}
