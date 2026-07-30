@@ -1,0 +1,133 @@
+.contact-page {
+    background:
+        radial-gradient(circle at top, rgba(41, 157, 244, .12), transparent 35%),
+        linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+    min-height: 100vh;
+}
+
+.contact-hero {
+    padding: 120px 0;
+}
+
+.contact-container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.contact-eyebrow {
+    color: #299df4;
+    font-weight: 800;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.contact-hero h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-intro {
+    max-width: 650px;
+    margin: 0 auto 60px;
+    text-align: center;
+    color: #667085;
+    line-height: 1.7;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-bottom: 30px;
+}
+
+.contact-card,
+.social-card {
+    background: white;
+    border-radius: 24px;
+    padding: 36px;
+    border: 1px solid rgba(15, 23, 42, .08);
+    box-shadow: 0 18px 40px rgba(15, 23, 42, .08);
+}
+
+.social-card {
+    text-align: center;
+}
+
+.contact-link {
+    display: inline-block;
+    margin-top: 18px;
+    color: #299df4;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 18px;
+    margin-top: 36px;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+    padding: 18px 22px;
+
+    border: 1px solid rgba(15, 23, 42, .08);
+    border-radius: 18px;
+
+    background: white;
+
+    text-decoration: none;
+
+    color: #101828;
+
+    transition:
+        transform .2s ease,
+        box-shadow .2s ease,
+        border-color .2s ease;
+}
+
+.social-button:hover {
+    transform: translateY(-4px);
+
+    border-color: rgba(41, 157, 244, .30);
+
+    box-shadow:
+        0 18px 40px rgba(15, 23, 42, .08),
+        0 0 0 4px rgba(41, 157, 244, .05);
+}
+
+.social-button img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.social-button span {
+    font-size: .95rem;
+    font-weight: 650;
+}
+
+@media(max-width:768px) {
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-card,
+    .social-card {
+        padding: 28px;
+    }
+
+}

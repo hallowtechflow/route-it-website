@@ -1,10 +1,10 @@
+import PricingSection from "../components/PricingSection";
+
 function Pricing() {
     return (
-        <section className="page-shell">
-            <div className="container">
-                <h1>Pricing</h1>
-            </div>
-        </section>
+        <main className="pricing-page">
+            <PricingSection />
+        </main>
     );
 }
 

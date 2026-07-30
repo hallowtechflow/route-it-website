@@ -1,5 +1,11 @@
 import { Link } from "react-router-dom";
 
+function openDownloadModal() {
+    window.dispatchEvent(
+        new CustomEvent("routeit:open-download-modal")
+    );
+}
+
 function Footer() {
     return (
         <footer className="site-footer">
@@ -8,7 +14,7 @@ function Footer() {
                     <Link className="brand-link" to="/" aria-label="Route-it! home">
                         <img
                             className="site-logo footer-logo"
-                            src="/branding/route-it-logo-dark.webp"
+                            src="/branding/route-it-app-icon.png"
                             alt="Route-it!"
                         />
                     </Link>
@@ -28,7 +34,13 @@ function Footer() {
                         <p className="footer-link-heading">Product</p>
                         <Link to="/features">Features</Link>
                         <Link to="/pricing">Pricing</Link>
-                        <a href="#download">Download</a>
+                        <button
+                            type="button"
+                            className="footer-download-link"
+                            onClick={openDownloadModal}
+                        >
+                            Download Route-it!
+                        </button>
                     </div>
 
                     <div className="footer-link-group">
@@ -41,6 +53,9 @@ function Footer() {
                         <p className="footer-link-heading">Legal</p>
                         <Link to="/privacy">Privacy</Link>
                         <Link to="/terms">Terms</Link>
+                        <Link to="/delete-account">
+                            Delete Account
+                        </Link>
                     </div>
                 </div>
             </div>

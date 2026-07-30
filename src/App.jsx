@@ -7,11 +7,16 @@ import Home from "./pages/Home";
 import Pricing from "./pages/Pricing";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
+import DeleteAccount from "./pages/DeleteAccount";
+import ScrollToTop from "./components/ScrollToTop";
 import "./App.css";
 
 function App() {
   return (
     <BrowserRouter>
+
+      <ScrollToTop />
+
       <Routes>
         <Route element={<SiteLayout />}>
           <Route path="/" element={<Home />} />
@@ -21,6 +26,10 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/terms" element={<Terms />} />
+          <Route
+            path="/delete-account"
+            element={<DeleteAccount />}
+          />
         </Route>
       </Routes>
     </BrowserRouter>
