@@ -34,6 +34,9 @@ function Footer() {
                         <p className="footer-link-heading">Product</p>
                         <Link to="/features">Features</Link>
                         <Link to="/pricing">Pricing</Link>
+                        <Link to="/faq">
+                            FAQ
+                        </Link>
                         <button
                             type="button"
                             className="footer-download-link"
