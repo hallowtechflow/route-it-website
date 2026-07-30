@@ -1,11 +1,9 @@
-function Features() {
+import FeaturesSection from "../components/FeaturesSection";
+
+export default function Features() {
     return (
-        <section className="page-shell">
-            <div className="container">
-                <h1>Features</h1>
-            </div>
-        </section>
+        <main>
+            <FeaturesSection />
+        </main>
     );
 }
-
-export default Features;
