@@ -54,10 +54,10 @@ function Header() {
 
                     <button
                         className="header-download-button"
-                        type="button"
+                        type="button" downl
                         onClick={() => setIsDownloadModalOpen(true)}
                     >
-                        Download
+                        Download for Free
                     </button>
                 </div>
             </header>
