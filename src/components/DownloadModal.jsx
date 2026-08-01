@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 
 const APP_STORE_URL = "https://apps.apple.com/us/app/route-it/id6788199192";
-const GOOGLE_PLAY_TEST_URL = "https://home.hallowtech.us/beta#google-beta";
-const WEB_APP_URL = "https://route-it-app.hallowtech.us";
+const GOOGLE_PLAY_TEST_URL = "https://dev.hallowtech.us/beta";
+const WEB_APP_URL = "https://app.route-it.com";
 
 function AppleIcon() {
     return (
