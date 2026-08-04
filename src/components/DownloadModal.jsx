@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 const APP_STORE_URL = "https://apps.apple.com/us/app/route-it/id6788199192";
 const GOOGLE_PLAY_TEST_URL = "https://dev.hallowtech.us/beta";
-const WEB_APP_URL = "https://app.route-it.com";
+const WEB_APP_URL = "https://app.routeitusa.com";
 
 function AppleIcon() {
     return (
