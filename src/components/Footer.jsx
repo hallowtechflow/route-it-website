@@ -33,6 +33,7 @@ function Footer() {
                     <div className="footer-link-group">
                         <p className="footer-link-heading">Product</p>
                         <Link to="/features">Features</Link>
+                        <Link to="/industries">Industries</Link>
                         <Link to="/pricing">Pricing</Link>
                         <Link to="/faq">
                             FAQ

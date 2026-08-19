@@ -10,6 +10,8 @@ import Terms from "./pages/Terms";
 import DeleteAccount from "./pages/DeleteAccount";
 import ScrollToTop from "./components/ScrollToTop";
 import FAQ from "./pages/FAQ";
+import Industries from "./pages/Industries";
+import Industry from "./pages/Industry";
 import "./App.css";
 
 function App() {
@@ -28,6 +30,8 @@ function App() {
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/faq" element={<FAQ />} />
+          <Route path="/industries" element={<Industries />} />
+          <Route path="/industries/:slug" element={<Industry />} />
           <Route
             path="/delete-account"
             element={<DeleteAccount />}

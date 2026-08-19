@@ -209,11 +209,17 @@ function Home() {
 
             <section className="home-industries">
                 <div className="container">
-                    <p>
-                        Built for lawn care, pest control, HVAC, pressure
-                        washing, pool service, landscaping, cleaning services,
-                        technicians, and other mobile service businesses.
-                    </p>
+                    <p>Built for the routes behind local service businesses.</p>
+                    <div className="home-industry-links">
+                        <a href="/industries/lawn-care">Lawn care</a>
+                        <a href="/industries/pest-control">Pest control</a>
+                        <a href="/industries/hvac">HVAC</a>
+                        <a href="/industries/pressure-washing">Pressure washing</a>
+                        <a href="/industries/pool-service">Pool service</a>
+                        <a href="/industries/landscaping">Landscaping</a>
+                        <a href="/industries/cleaning-services">Cleaning</a>
+                        <a href="/industries">View all industries →</a>
+                    </div>
                 </div>
             </section>
 

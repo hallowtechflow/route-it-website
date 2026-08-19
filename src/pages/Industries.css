@@ -1,0 +1,71 @@
+.industries-page,
+.industry-page { background: #fff; color: #101828; }
+.industries-eyebrow { margin: 0 0 16px; color: #299df4; font-size: .76rem; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+.industries-hero { padding: 110px 0 120px; background: radial-gradient(circle at 78% 10%, rgba(41,157,244,.17), transparent 34%), linear-gradient(180deg,#f6fbff,#fff); }
+.industries-hero-inner { max-width: 930px; text-align: center; }
+.industries-hero h1 { margin: 0; font-size: clamp(4rem,9vw,7.4rem); line-height: .88; letter-spacing: -.025em; text-transform: uppercase; }
+.industries-hero h1 + p { max-width: 760px; margin: 28px auto 0; color: #5f6b7a; font-size: 1.08rem; line-height: 1.75; }
+.industries-directory { padding: 110px 0 130px; }
+.industries-section-heading { max-width: 790px; margin-bottom: 48px; }
+.industries-section-heading h2,.industries-foundation h2,.industry-content-section h2,.industry-workflow-section h2,.industry-faq-section h2,.industry-related h2,.industry-cta h2 { margin: 0; font-size: clamp(2.8rem,5.5vw,4.8rem); line-height: .94; text-transform: uppercase; }
+.industries-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 18px; }
+.industry-card { position: relative; min-height: 310px; padding: 34px; border: 1px solid rgba(15,23,42,.09); border-radius: 24px; background: #fff; box-shadow: 0 12px 34px rgba(15,23,42,.06); transition: transform .2s ease,border-color .2s ease,box-shadow .2s ease; }
+.industry-card:hover { transform: translateY(-4px); border-color: rgba(41,157,244,.32); box-shadow: 0 20px 45px rgba(15,23,42,.11); }
+.industry-card-number { color: #299df4; font-family: var(--font-display); font-weight: 700; }
+.industry-card h3 { margin: 48px 0 12px; font-size: 2.2rem; text-transform: uppercase; }
+.industry-card p { max-width: 520px; margin: 0; color: #667085; line-height: 1.7; }
+.industry-card-link { position: absolute; bottom: 32px; left: 34px; color: #1c87db; font-size: .88rem; font-weight: 750; }
+.industries-foundation { padding: 120px 0; background: #101828; color: #fff; }
+.industries-foundation-inner { display: grid; grid-template-columns: .8fr 1.2fr; gap: 90px; }
+.industries-foundation-list { display: grid; gap: 18px; }
+.industries-foundation-list article { padding: 26px 0; border-top: 1px solid rgba(255,255,255,.14); display: grid; grid-template-columns: 50px 170px 1fr; gap: 18px; align-items: baseline; }
+.industries-foundation-list strong { color: #55b5ff; }
+.industries-foundation-list h3,.industries-foundation-list p { margin: 0; }
+.industries-foundation-list p { color: #aeb8c8; line-height: 1.6; }
+.industry-hero { padding: 62px 0 105px; background: radial-gradient(circle at 82% 25%,rgba(41,157,244,.18),transparent 29%),linear-gradient(180deg,#f6fbff,#fff); }
+.industry-hero-grid { display: grid; grid-template-columns: minmax(0,1.35fr) minmax(300px,.65fr); gap: 80px; align-items: end; }
+.industry-breadcrumb { display: flex; gap: 10px; margin-bottom: 68px; color: #778294; font-size: .8rem; font-weight: 650; }
+.industry-breadcrumb a { color: #1f8edf; }
+.industry-hero h1 { max-width: 850px; margin: 0; font-size: clamp(3.8rem,7vw,6.7rem); line-height: .87; letter-spacing: -.02em; text-transform: uppercase; }
+.industry-lede { max-width: 760px; margin: 28px 0 0; color: #5f6b7a; font-size: 1.06rem; line-height: 1.8; }
+.industry-actions { display: flex; gap: 14px; margin-top: 32px; }
+.industry-actions button,.industry-actions a,.industry-cta button { min-height: 54px; padding: 0 25px; border-radius: 14px; font-weight: 750; display: inline-flex; align-items: center; justify-content: center; cursor: pointer; }
+.industry-actions button,.industry-cta button { border: 1px solid #45a8fb; color: #fff; background: linear-gradient(180deg,#61bcff,#238df2); box-shadow: 0 13px 28px rgba(41,157,244,.25); }
+.industry-actions a { border: 1px solid rgba(15,23,42,.13); background: #fff; }
+.industry-summary { padding: 32px; border: 1px solid rgba(41,157,244,.2); border-radius: 24px; background: rgba(255,255,255,.84); box-shadow: 0 24px 60px rgba(15,23,42,.1); }
+.industry-summary > p { margin: 0 0 23px; font-family: var(--font-display); font-size: 1.55rem; font-weight: 700; text-transform: uppercase; }
+.industry-summary ul { display: grid; gap: 14px; margin: 0; padding: 0; list-style: none; }
+.industry-summary li { padding-left: 22px; position: relative; color: #526071; line-height: 1.5; }
+.industry-summary li::before { content: "✓"; position: absolute; left: 0; color: #299df4; font-weight: 800; }
+.industry-platforms { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 28px; padding-top: 22px; border-top: 1px solid rgba(15,23,42,.08); }
+.industry-platforms span { padding: 7px 10px; border-radius: 8px; color: #33617f; background: #edf7ff; font-size: .72rem; font-weight: 750; }
+.industry-content-section { padding: 115px 0; }
+.industry-two-column { display: grid; grid-template-columns: .85fr 1.15fr; gap: 90px; }
+.industry-copy > p:last-child { color: #667085; line-height: 1.8; }
+.industry-list-cards { display: grid; gap: 14px; }
+.industry-list-cards article { display: grid; grid-template-columns: 42px 1fr; gap: 18px; align-items: center; padding: 25px; border: 1px solid rgba(15,23,42,.08); border-radius: 18px; background: #f9fbfd; }
+.industry-list-cards span { display: grid; place-items: center; width: 42px; height: 42px; border-radius: 12px; color: #299df4; background: #e8f5ff; font-weight: 800; }
+.industry-list-cards p { margin: 0; color: #465365; line-height: 1.6; }
+.industry-workflow-section { padding: 115px 0; background: #f6faff; }
+.industry-workflow-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 15px; }
+.industry-workflow-grid article { min-height: 220px; padding: 28px; border-radius: 20px; background: #fff; box-shadow: 0 10px 28px rgba(15,23,42,.06); }
+.industry-workflow-grid strong { color: #299df4; font-family: var(--font-display); font-size: 1.3rem; }
+.industry-workflow-grid p { margin: 58px 0 0; color: #465365; font-weight: 650; line-height: 1.6; }
+.industry-detail-copy { max-width: 890px; margin: 44px 0 0; color: #667085; line-height: 1.85; }
+.industry-faq-section { padding: 115px 0; }
+.industry-faq-grid { display: grid; grid-template-columns: .8fr 1.2fr; gap: 100px; }
+.industry-faq-section details { padding: 25px 0; border-bottom: 1px solid rgba(15,23,42,.1); }
+.industry-faq-section summary { color: #202b3b; font-weight: 750; cursor: pointer; }
+.industry-faq-section details p { margin: 14px 30px 0 0; color: #667085; line-height: 1.75; }
+.industry-related { padding: 95px 0; background: #f8fafc; }
+.industry-related-heading { display: flex; justify-content: space-between; align-items: end; gap: 30px; margin-bottom: 34px; }
+.industry-related-heading a { color: #258fdc; font-weight: 750; white-space: nowrap; }
+.industry-related-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; }
+.industry-related-grid a { display: flex; flex-direction: column; gap: 9px; padding: 26px; border: 1px solid rgba(15,23,42,.08); border-radius: 18px; background: #fff; }
+.industry-related-grid span { font-family: var(--font-display); font-size: 1.55rem; font-weight: 700; text-transform: uppercase; }
+.industry-related-grid small { color: #7a8595; }
+.industry-cta { padding: 105px 0; text-align: center; color: #fff; background: radial-gradient(circle at 50% 0,rgba(41,157,244,.32),transparent 38%),#101828; }
+.industry-cta p:not(.industries-eyebrow) { color: #b2bdcb; }
+.industry-cta button { margin-top: 20px; }
+@media(max-width:900px){.industries-grid,.industries-foundation-inner,.industry-hero-grid,.industry-two-column,.industry-faq-grid{grid-template-columns:1fr}.industries-foundation-inner,.industry-hero-grid,.industry-two-column,.industry-faq-grid{gap:55px}.industry-workflow-grid{grid-template-columns:repeat(2,1fr)}.industry-breadcrumb{margin-bottom:45px}}
+@media(max-width:620px){.industries-hero,.industries-directory,.industries-foundation,.industry-content-section,.industry-workflow-section,.industry-faq-section{padding:78px 0}.industries-grid,.industry-workflow-grid,.industry-related-grid{grid-template-columns:1fr}.industry-card{min-height:290px;padding:27px}.industries-foundation-list article{grid-template-columns:38px 1fr}.industries-foundation-list p{grid-column:2}.industry-actions{flex-direction:column}.industry-related-heading{align-items:flex-start;flex-direction:column}.industry-hero{padding-top:42px}.industry-summary{padding:25px}}

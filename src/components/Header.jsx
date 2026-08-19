@@ -44,6 +44,7 @@ function Header() {
                         aria-label="Main navigation"
                     >
                         <NavLink to="/features">Features</NavLink>
+                        <NavLink to="/industries">Industries</NavLink>
                         <NavLink to="/pricing">Pricing</NavLink>
                         <Link to="/faq">
                             FAQ
