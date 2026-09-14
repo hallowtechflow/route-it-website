@@ -11,7 +11,7 @@ function upsertMeta(selector, attributes) {
   Object.entries(attributes).forEach(([key, value]) => element.setAttribute(key, value));
 }
 
-export default function Seo({ title, description, path, schema }) {
+export default function Seo({ title, description, path, schema, robots = "index, follow" }) {
   useEffect(() => {
     const canonicalUrl = `${SITE_URL}${path}`;
     document.title = title;
@@ -21,6 +21,7 @@ export default function Seo({ title, description, path, schema }) {
     upsertMeta('meta[property="og:url"]', { property: "og:url", content: canonicalUrl });
     upsertMeta('meta[name="twitter:title"]', { name: "twitter:title", content: title });
     upsertMeta('meta[name="twitter:description"]', { name: "twitter:description", content: description });
+    upsertMeta('meta[name="robots"]', { name: "robots", content: robots });
 
     let canonical = document.head.querySelector('link[rel="canonical"]');
     if (!canonical) {
@@ -30,14 +31,17 @@ export default function Seo({ title, description, path, schema }) {
     }
     canonical.href = canonicalUrl;
 
-    const script = document.createElement("script");
-    script.type = "application/ld+json";
-    script.dataset.routeitPageSchema = "true";
-    script.textContent = JSON.stringify(schema);
-    document.head.appendChild(script);
+    let script;
+    if (schema) {
+      script = document.createElement("script");
+      script.type = "application/ld+json";
+      script.dataset.routeitPageSchema = "true";
+      script.textContent = JSON.stringify(schema);
+      document.head.appendChild(script);
+    }
 
-    return () => script.remove();
-  }, [description, path, schema, title]);
+    return () => script?.remove();
+  }, [description, path, robots, schema, title]);
 
   return null;
 }
