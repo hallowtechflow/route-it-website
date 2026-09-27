@@ -12,6 +12,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import FAQ from "./pages/FAQ";
 import Industries from "./pages/Industries";
 import Industry from "./pages/Industry";
+import Connect from "./pages/Connect";
 import "./App.css";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <ScrollToTop />
 
       <Routes>
+        <Route path="/connect" element={<Connect />} />
         <Route element={<SiteLayout />}>
           <Route path="/" element={<Home />} />
           <Route path="/features" element={<Features />} />
