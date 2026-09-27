@@ -27,8 +27,8 @@
 .connect-orb-two { width: 300px; height: 300px; left: -190px; bottom: -120px; box-shadow: 0 0 0 44px rgba(41,157,244,.02); }
 
 .connect-panel { position: relative; z-index: 1; width: min(100%, 660px); min-height: calc(100vh - 68px); margin: 0 auto; padding: 42px 48px 34px; border: 1px solid rgba(85,186,255,.2); border-radius: 30px; background: rgba(9,24,41,.82); box-shadow: 0 38px 100px rgba(0,0,0,.34); backdrop-filter: blur(22px); }
-.connect-brand { display: block; width: min(315px, 70%); margin: 0 auto; }
-.connect-brand img { width: 100%; filter: brightness(0) invert(1); }
+.connect-brand { display: block; width: min(390px, 82%); margin: 0 auto; }
+.connect-brand img { width: 100%; }
 .connect-heading { margin: 54px 0 32px; text-align: center; }
 .connect-eyebrow { display: flex; justify-content: center; align-items: center; gap: 9px; margin: 0 0 17px; color: var(--connect-blue-bright); font-size: .73rem; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
 .connect-eyebrow span { width: 8px; height: 8px; border: 2px solid currentColor; border-radius: 50%; }

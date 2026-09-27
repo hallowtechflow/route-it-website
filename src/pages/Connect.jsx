@@ -68,13 +68,13 @@ export default function Connect() {
       <div className="connect-orb connect-orb-two" />
       <section className="connect-panel">
         <Link className="connect-brand" to="/" aria-label="Route-it! home">
-          <img src="/branding/route-it-words.png" alt="Route-it!" />
+          <img src="/branding/route-it-logo-dark.webp" alt="Route-it!" />
         </Link>
 
         <div className="connect-heading">
-          <p className="connect-eyebrow"><span /> Your workday, routed</p>
-          <h1>Connect with <em>Route-it!</em></h1>
-          <p>Choose where you’d like to go.</p>
+          <p className="connect-eyebrow"><span /> Work smarter, finish stronger</p>
+          <h1>Download <em>Route-it!</em> or find out more</h1>
+          <p>Download or learn more.</p>
         </div>
 
         <div className="connect-links">
