@@ -27,8 +27,8 @@
 .connect-orb-two { width: 300px; height: 300px; left: -190px; bottom: -120px; box-shadow: 0 0 0 44px rgba(41,157,244,.02); }
 
 .connect-panel { position: relative; z-index: 1; width: min(100%, 660px); min-height: calc(100vh - 68px); margin: 0 auto; padding: 42px 48px 34px; border: 1px solid rgba(15,23,42,.09); border-radius: 30px; background: rgba(255,255,255,.92); box-shadow: 0 30px 80px rgba(15,23,42,.12); backdrop-filter: blur(22px); }
-.connect-brand { display: block; width: min(390px, 82%); margin: 0 auto; }
-.connect-brand img { width: 100%; }
+.connect-brand { display: block; width: min(470px, 90%); aspect-ratio: 4.4; margin: 0 auto; overflow: hidden; }
+.connect-brand img { width: 100%; height: 100%; object-fit: cover; object-position: center 44%; }
 .connect-heading { margin: 54px 0 32px; text-align: center; }
 .connect-eyebrow { display: flex; justify-content: center; align-items: center; gap: 9px; margin: 0 0 17px; color: var(--connect-blue-bright); font-size: .73rem; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
 .connect-eyebrow span { width: 8px; height: 8px; border: 2px solid currentColor; border-radius: 50%; }
@@ -64,7 +64,7 @@
 @media (max-width: 580px) {
   .connect-page { padding: 0; }
   .connect-panel { width: 100%; min-height: 100vh; padding: 34px 17px 27px; border: 0; border-radius: 0; }
-  .connect-brand { width: min(260px, 67%); }
+  .connect-brand { width: min(350px, 88%); }
   .connect-heading { margin-top: 43px; }
   .connect-heading h1 { font-size: clamp(3rem, 16vw, 4.5rem); }
   .connect-link { grid-template-columns: 46px 1fr 24px; min-height: 79px; padding: 12px 14px; }

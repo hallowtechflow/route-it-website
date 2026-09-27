@@ -68,7 +68,7 @@ export default function Connect() {
       <div className="connect-orb connect-orb-two" />
       <section className="connect-panel">
         <Link className="connect-brand" to="/" aria-label="Route-it! home">
-          <img src="/branding/route-it-logo-dark.webp" alt="Route-it!" />
+          <img src="/branding/route-it-words.png" alt="Route-it!" />
         </Link>
 
         <div className="connect-heading">
